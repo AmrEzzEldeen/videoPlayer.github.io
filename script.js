@@ -140,7 +140,7 @@ function toggleFullscreen() {
   if (!fullscreen) {
     openFullscreen(player);
   } else {
-    openFullscreen();
+    closeFullscreen();
   }
   fullscreen = !fullscreen;
 }
